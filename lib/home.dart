@@ -8,8 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        title:  const Text("Netflix", style: TextStyle(color: Colors.white,fontSize: 25,fontFamily: 'Lato',fontWeight: FontWeight.bold),),
-        backgroundColor: const Color.fromARGB(255, 198, 26, 13),
+        title:  const Text("Netflix", style: TextStyle(color: Colors.white,fontSize: 25,fontFamily: 'Lato',fontWeight: FontWeight.bold),),backgroundColor: const Color.fromARGB(255, 198, 26, 13),
         ),
         backgroundColor: Colors.black,
       );
